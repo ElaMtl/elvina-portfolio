@@ -2,69 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Elvina Cherepovich – Business Analyst</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 <body>
   <header>
-    <img src="elvina-photo.jpg" alt="Elvina Cherepovich" class="profile-pic"/>
+    <div class="language-switcher">
+      <button onclick="switchLang('en')">EN</button>
+      <button onclick="switchLang('fr')">FR</button>
+      <button onclick="switchLang('ru')">RU</button>
+      <button onclick="switchLang('tt')">TT</button>
+    </div>
+    <img src="elvina-photo.jpg" alt="Elvina Cherepovich" class="profile-pic" />
     <h1>Elvina Cherepovich</h1>
     <p>Business Analyst | Digital Thinker | Project Connector</p>
   </header>
   <main>
     <section id="about">
-      <h2>About Me | À propos | Обо мне | Үзем турында</h2>
-      <p><strong>EN:</strong> I’m a passionate business analyst with 8+ years of experience in software and systems design.</p>
-      <p><strong>FR:</strong> Analyste d’affaires avec plus de 8 ans d’expérience en développement logiciel et optimisation des processus.</p>
-      <p><strong>RU:</strong> Бизнес-аналитик с 8+ летним опытом в разработке и системной аналитике.</p>
-      <p><strong>TT:</strong> Мин бизнес-аналитик. Анализлыйм, уйлыйм, җанландырам!</p>
+      <div class="lang-section lang-en active">
+        <h2>About Me</h2>
+        <p>I’m a passionate business analyst with 8+ years of experience in software and systems design.</p>
+      </div>
+      <div class="lang-section lang-fr">
+        <h2>À propos</h2>
+        <p>Analyste d’affaires avec plus de 8 ans d’expérience en développement logiciel et optimisation des processus.</p>
+      </div>
+      <div class="lang-section lang-ru">
+        <h2>Обо мне</h2>
+        <p>Бизнес-аналитик с 8+ летним опытом в ИТ-проектах и системной аналитике.</p>
+      </div>
+      <div class="lang-section lang-tt">
+        <h2>Үзем турында</h2>
+        <p>Мин бизнес-аналитик. Анализлыйм, уйлыйм, җанландырам!</p>
+      </div>
     </section>
 
-    <section id="projects">
-      <h2>Projects | Projets | Проекты | Проектлар</h2>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>
+        По ходу своей карьеры у меня было много интересных и иногда очень захватывающих проектов и вызовов. 
+        Наверно, это самое главное что стоит знать обо мне как о человека и профессионале. Я не боюсь никаких сложностей. 
+        Мне нравится решать задачи, создавать полезное, а не тратить жизнь впустую. Наоборот, они придают краски и интерес. 
+        Любую задачу можно решить, когда любишь свою работу и предан своей команде!
+        В моем портфолио хочу рассказать о самых запоминающихся проектах и продуктах.
+        Я верю, что успех в профессии — это радость решать задачи, создавать полезное, не тратить жизнь впустую. 
+        Мне нравится решать реальные прикладные задачи из жизни и бизнеса, докапываться до истины, создавать порядок из хаоса.
+      </p>
+
+      <h3>Key Projects</h3>
       <ul>
-        <li><strong>GIS Housing & Utilities</strong> – EN: Integration with utility systems | FR: Intégration avec les services publics | RU: Интеграции с поставщиками услуг | TT: Коммуналь челтәрләр белән эш.</li>
-        <li><strong>ISO 9000 Implementation</strong> – Quality management in construction.</li>
-        <li><strong>TatarTreats Startup</strong> – Cultural + business venture from idea to retail.</li>
+        <li><strong>Project 1:</strong> [Coming soon]</li>
+        <li><strong>Project 2:</strong> [Coming soon]</li>
+        <li><strong>Project 3:</strong> [Coming soon]</li>
+        <li><strong>Project 4:</strong> [Coming soon]</li>
+        <li><strong>Project 5:</strong> [Coming soon]</li>
       </ul>
-    </section>
 
-    <section id="certifications">
-      <h2>Certifications & Education</h2>
+      <h3>My Skills in Action</h3>
       <ul>
-        <li>Master's degree in Applied Computer Science (Management), 2006</li>
-        <li>BABOK CBAP Certification (in progress)</li>
-        <li>Systems Design for Analysts (in progress)</li>
-        <li>AWS, JavaScript Bootcamp, Flutter (in progress)</li>
-        <li>Cert: Web Development (HTML3, CSS3)</li>
-        <li>Cert: Corporate Systems Integration</li>
-        <li>PostgreSQL Bootcamp</li>
-        <li>Training: Software Quality Requirements (LANIT)</li>
-        <li>Training: Agile BA, Writing User Stories</li>
-        <li>Various: UML, PMBOK, PDM Systems</li>
+        <li>📊 Business Process Modeling (BPMN, IDEF, UML)</li>
+        <li>📄 Sample Documentation – Requirements, Test Cases, User Stories</li>
+        <li>💻 Programming & Prototyping</li>
+        <li>🔌 System Integration and API Logic</li>
       </ul>
-    </section>
-
-    <section id="recommendations">
-      <h2>Recommendation</h2>
-      <blockquote>
-        “Grâce aux efforts et à l’expertise de Madame Elvina Cherepovich, nous avons fait la transition vers une société par actions prospère... avec une augmentation de 156 % du nombre de commandes.”<br />
-        — Dr. Amayas T Mostefaoui, CEO, Thunder Optics S.A.S
-      </blockquote>
-      <a href="Recom_Letter_EC.pdf" download>Read full letter (PDF)</a>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: elvina@example.com<br />
-      LinkedIn: <a href="https://www.linkedin.com/in/elvinacherepovich">linkedin.com/in/elvinacherepovich</a></p>
-      <a href="Elvina_Cherepovich_CV.pdf" download>Download CV (PDF)</a><br/>
-      <img src="qr-code.png" alt="QR to portfolio" class="qr-code"/>
     </section>
   </main>
   <footer>
     <p>&copy; 2025 Elvina Cherepovich</p>
   </footer>
+
+  <script>
+    function switchLang(lang) {
+      const langs = document.querySelectorAll('.lang-section');
+      langs.forEach(el => el.classList.remove('active'));
+      const selected = document.querySelectorAll('.lang-' + lang);
+      selected.forEach(el => el.classList.add('active'));
+    }
+    window.addEventListener('DOMContentLoaded', () => switchLang('en'));
+  </script>
 </body>
 </html>
